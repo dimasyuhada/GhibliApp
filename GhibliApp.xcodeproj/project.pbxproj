@@ -1,0 +1,852 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AD9F665C84DDA8EA082D0A1 /* Pods_GhibliApp_GhibliAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2AEABDD4B94501C9AAB07A /* Pods_GhibliApp_GhibliAppUITests.framework */; };
+		5D1FDC5B3487C537BF4C03AF /* Pods_GhibliApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45359840FE245271CDF02B94 /* Pods_GhibliApp.framework */; };
+		631F61D6268C4ADD00EE39BE /* icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = 631F61CA268C4ADC00EE39BE /* icon120.png */; };
+		631F61D7268C4ADD00EE39BE /* icon76.png in Resources */ = {isa = PBXBuildFile; fileRef = 631F61CB268C4ADC00EE39BE /* icon76.png */; };
+		631F61D8268C4ADD00EE39BE /* icon180.png in Resources */ = {isa = PBXBuildFile; fileRef = 631F61CC268C4ADC00EE39BE /* icon180.png */; };
+		631F61D9268C4ADD00EE39BE /* icon29.png in Resources */ = {isa = PBXBuildFile; fileRef = 631F61CD268C4ADD00EE39BE /* icon29.png */; };
+		631F61DA268C4ADD00EE39BE /* icon60.png in Resources */ = {isa = PBXBuildFile; fileRef = 631F61CE268C4ADD00EE39BE /* icon60.png */; };
+		631F61DB268C4ADD00EE39BE /* icon40.png in Resources */ = {isa = PBXBuildFile; fileRef = 631F61CF268C4ADD00EE39BE /* icon40.png */; };
+		631F61DC268C4ADD00EE39BE /* icon152.png in Resources */ = {isa = PBXBuildFile; fileRef = 631F61D0268C4ADD00EE39BE /* icon152.png */; };
+		631F61DD268C4ADD00EE39BE /* icon58.png in Resources */ = {isa = PBXBuildFile; fileRef = 631F61D1268C4ADD00EE39BE /* icon58.png */; };
+		631F61DE268C4ADD00EE39BE /* icon87.png in Resources */ = {isa = PBXBuildFile; fileRef = 631F61D2268C4ADD00EE39BE /* icon87.png */; };
+		631F61DF268C4ADD00EE39BE /* icon167.png in Resources */ = {isa = PBXBuildFile; fileRef = 631F61D3268C4ADD00EE39BE /* icon167.png */; };
+		631F61E0268C4ADD00EE39BE /* icon80.png in Resources */ = {isa = PBXBuildFile; fileRef = 631F61D4268C4ADD00EE39BE /* icon80.png */; };
+		631F61E1268C4ADD00EE39BE /* icon20.png in Resources */ = {isa = PBXBuildFile; fileRef = 631F61D5268C4ADD00EE39BE /* icon20.png */; };
+		631F61EF268C77C800EE39BE /* poster_.png in Resources */ = {isa = PBXBuildFile; fileRef = 631F61EE268C77C800EE39BE /* poster_.png */; };
+		631F61F7268EBE5C00EE39BE /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631F61F6268EBE5C00EE39BE /* DetailsViewController.swift */; };
+		63438CC6268AFA1500A52143 /* GhibliTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63438CC4268AFA1500A52143 /* GhibliTableViewCell.swift */; };
+		63438CC7268AFA1500A52143 /* GhibliTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63438CC5268AFA1500A52143 /* GhibliTableViewCell.xib */; };
+		63438CD8268AFF5600A52143 /* Ghibli.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63438CD7268AFF5600A52143 /* Ghibli.swift */; };
+		63516B7C268ED68400E6D0E4 /* totoro_.png in Resources */ = {isa = PBXBuildFile; fileRef = 63516B7B268ED68400E6D0E4 /* totoro_.png */; };
+		63516B8F268F0B1700E6D0E4 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63516B8E268F0B1700E6D0E4 /* NetworkService.swift */; };
+		63B93D6B268981FC005B2641 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B93D6A268981FC005B2641 /* AppDelegate.swift */; };
+		63B93D6D268981FC005B2641 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B93D6C268981FC005B2641 /* SceneDelegate.swift */; };
+		63B93D6F268981FC005B2641 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B93D6E268981FC005B2641 /* ViewController.swift */; };
+		63B93D72268981FC005B2641 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B93D70268981FC005B2641 /* Main.storyboard */; };
+		63B93D74268981FD005B2641 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B93D73268981FD005B2641 /* Assets.xcassets */; };
+		63B93D77268981FD005B2641 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B93D75268981FD005B2641 /* LaunchScreen.storyboard */; };
+		63B93D82268981FD005B2641 /* GhibliAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B93D81268981FD005B2641 /* GhibliAppTests.swift */; };
+		63B93D8D268981FD005B2641 /* GhibliAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B93D8C268981FD005B2641 /* GhibliAppUITests.swift */; };
+		B2FB407D81D1A162E13F7787 /* Pods_GhibliAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CFA7FAD5A413BEE4675EA9 /* Pods_GhibliAppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63B93D7E268981FD005B2641 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63B93D5F268981FC005B2641 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63B93D66268981FC005B2641;
+			remoteInfo = GhibliApp;
+		};
+		63B93D89268981FD005B2641 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63B93D5F268981FC005B2641 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63B93D66268981FC005B2641;
+			remoteInfo = GhibliApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43CFA7FAD5A413BEE4675EA9 /* Pods_GhibliAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GhibliAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45359840FE245271CDF02B94 /* Pods_GhibliApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GhibliApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DB14136FE10B7275148F6F2 /* Pods-GhibliAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhibliAppTests.debug.xcconfig"; path = "Target Support Files/Pods-GhibliAppTests/Pods-GhibliAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		631F61CA268C4ADC00EE39BE /* icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon120.png; sourceTree = "<group>"; };
+		631F61CB268C4ADC00EE39BE /* icon76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon76.png; sourceTree = "<group>"; };
+		631F61CC268C4ADC00EE39BE /* icon180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon180.png; sourceTree = "<group>"; };
+		631F61CD268C4ADD00EE39BE /* icon29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon29.png; sourceTree = "<group>"; };
+		631F61CE268C4ADD00EE39BE /* icon60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon60.png; sourceTree = "<group>"; };
+		631F61CF268C4ADD00EE39BE /* icon40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon40.png; sourceTree = "<group>"; };
+		631F61D0268C4ADD00EE39BE /* icon152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon152.png; sourceTree = "<group>"; };
+		631F61D1268C4ADD00EE39BE /* icon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon58.png; sourceTree = "<group>"; };
+		631F61D2268C4ADD00EE39BE /* icon87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon87.png; sourceTree = "<group>"; };
+		631F61D3268C4ADD00EE39BE /* icon167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon167.png; sourceTree = "<group>"; };
+		631F61D4268C4ADD00EE39BE /* icon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon80.png; sourceTree = "<group>"; };
+		631F61D5268C4ADD00EE39BE /* icon20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon20.png; sourceTree = "<group>"; };
+		631F61EE268C77C800EE39BE /* poster_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poster_.png; sourceTree = "<group>"; };
+		631F61F6268EBE5C00EE39BE /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		63438CC4268AFA1500A52143 /* GhibliTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhibliTableViewCell.swift; sourceTree = "<group>"; };
+		63438CC5268AFA1500A52143 /* GhibliTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GhibliTableViewCell.xib; sourceTree = "<group>"; };
+		63438CD7268AFF5600A52143 /* Ghibli.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ghibli.swift; sourceTree = "<group>"; };
+		63516B7B268ED68400E6D0E4 /* totoro_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = totoro_.png; sourceTree = "<group>"; };
+		63516B8E268F0B1700E6D0E4 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		63B93D67268981FC005B2641 /* GhibliApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GhibliApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B93D6A268981FC005B2641 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63B93D6C268981FC005B2641 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		63B93D6E268981FC005B2641 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63B93D71268981FC005B2641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63B93D73268981FD005B2641 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63B93D76268981FD005B2641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63B93D78268981FD005B2641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63B93D7D268981FD005B2641 /* GhibliAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GhibliAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B93D81268981FD005B2641 /* GhibliAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhibliAppTests.swift; sourceTree = "<group>"; };
+		63B93D83268981FD005B2641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63B93D88268981FD005B2641 /* GhibliAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GhibliAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B93D8C268981FD005B2641 /* GhibliAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhibliAppUITests.swift; sourceTree = "<group>"; };
+		63B93D8E268981FD005B2641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C3E8599E8632B182BAD34B4 /* Pods-GhibliAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhibliAppTests.release.xcconfig"; path = "Target Support Files/Pods-GhibliAppTests/Pods-GhibliAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		BC2AEABDD4B94501C9AAB07A /* Pods_GhibliApp_GhibliAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GhibliApp_GhibliAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C982F2E830807EB0651016EE /* Pods-GhibliApp-GhibliAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhibliApp-GhibliAppUITests.release.xcconfig"; path = "Target Support Files/Pods-GhibliApp-GhibliAppUITests/Pods-GhibliApp-GhibliAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CF5ED670FBA54553977DCCA4 /* Pods-GhibliApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhibliApp.release.xcconfig"; path = "Target Support Files/Pods-GhibliApp/Pods-GhibliApp.release.xcconfig"; sourceTree = "<group>"; };
+		F24273D5C79D1ABCB1E8B2D5 /* Pods-GhibliApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhibliApp.debug.xcconfig"; path = "Target Support Files/Pods-GhibliApp/Pods-GhibliApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F68FE62ED474D637050C6B3E /* Pods-GhibliApp-GhibliAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhibliApp-GhibliAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-GhibliApp-GhibliAppUITests/Pods-GhibliApp-GhibliAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63B93D64268981FC005B2641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D1FDC5B3487C537BF4C03AF /* Pods_GhibliApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B93D7A268981FD005B2641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2FB407D81D1A162E13F7787 /* Pods_GhibliAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B93D85268981FD005B2641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD9F665C84DDA8EA082D0A1 /* Pods_GhibliApp_GhibliAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		631F61E5268C4E5500EE39BE /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				63516B7B268ED68400E6D0E4 /* totoro_.png */,
+				631F61EE268C77C800EE39BE /* poster_.png */,
+				631F61D5268C4ADD00EE39BE /* icon20.png */,
+				631F61CD268C4ADD00EE39BE /* icon29.png */,
+				631F61CF268C4ADD00EE39BE /* icon40.png */,
+				631F61D1268C4ADD00EE39BE /* icon58.png */,
+				631F61CE268C4ADD00EE39BE /* icon60.png */,
+				631F61CB268C4ADC00EE39BE /* icon76.png */,
+				631F61D4268C4ADD00EE39BE /* icon80.png */,
+				631F61D2268C4ADD00EE39BE /* icon87.png */,
+				631F61CA268C4ADC00EE39BE /* icon120.png */,
+				631F61D0268C4ADD00EE39BE /* icon152.png */,
+				631F61D3268C4ADD00EE39BE /* icon167.png */,
+				631F61CC268C4ADC00EE39BE /* icon180.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		63438CC3268AF9B100A52143 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63B93D70268981FC005B2641 /* Main.storyboard */,
+				63B93D75268981FD005B2641 /* LaunchScreen.storyboard */,
+				63438CC4268AFA1500A52143 /* GhibliTableViewCell.swift */,
+				63438CC5268AFA1500A52143 /* GhibliTableViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		63438CD3268AFD3900A52143 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				63438CD7268AFF5600A52143 /* Ghibli.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		63B93D5E268981FC005B2641 = {
+			isa = PBXGroup;
+			children = (
+				63B93D69268981FC005B2641 /* GhibliApp */,
+				63B93D80268981FD005B2641 /* GhibliAppTests */,
+				63B93D8B268981FD005B2641 /* GhibliAppUITests */,
+				63B93D68268981FC005B2641 /* Products */,
+				95D856EDCC4CFD7603005764 /* Pods */,
+				953966D5792207B37EA9117F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63B93D68268981FC005B2641 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63B93D67268981FC005B2641 /* GhibliApp.app */,
+				63B93D7D268981FD005B2641 /* GhibliAppTests.xctest */,
+				63B93D88268981FD005B2641 /* GhibliAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63B93D69268981FC005B2641 /* GhibliApp */ = {
+			isa = PBXGroup;
+			children = (
+				631F61E5268C4E5500EE39BE /* Assets */,
+				63B93D73268981FD005B2641 /* Assets.xcassets */,
+				63B93D6A268981FC005B2641 /* AppDelegate.swift */,
+				63B93D6C268981FC005B2641 /* SceneDelegate.swift */,
+				63438CD3268AFD3900A52143 /* Model */,
+				63438CC3268AF9B100A52143 /* View */,
+				63B93D6E268981FC005B2641 /* ViewController.swift */,
+				631F61F6268EBE5C00EE39BE /* DetailsViewController.swift */,
+				63516B8E268F0B1700E6D0E4 /* NetworkService.swift */,
+				63B93D78268981FD005B2641 /* Info.plist */,
+			);
+			path = GhibliApp;
+			sourceTree = "<group>";
+		};
+		63B93D80268981FD005B2641 /* GhibliAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				63B93D81268981FD005B2641 /* GhibliAppTests.swift */,
+				63B93D83268981FD005B2641 /* Info.plist */,
+			);
+			path = GhibliAppTests;
+			sourceTree = "<group>";
+		};
+		63B93D8B268981FD005B2641 /* GhibliAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63B93D8C268981FD005B2641 /* GhibliAppUITests.swift */,
+				63B93D8E268981FD005B2641 /* Info.plist */,
+			);
+			path = GhibliAppUITests;
+			sourceTree = "<group>";
+		};
+		953966D5792207B37EA9117F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45359840FE245271CDF02B94 /* Pods_GhibliApp.framework */,
+				BC2AEABDD4B94501C9AAB07A /* Pods_GhibliApp_GhibliAppUITests.framework */,
+				43CFA7FAD5A413BEE4675EA9 /* Pods_GhibliAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95D856EDCC4CFD7603005764 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F24273D5C79D1ABCB1E8B2D5 /* Pods-GhibliApp.debug.xcconfig */,
+				CF5ED670FBA54553977DCCA4 /* Pods-GhibliApp.release.xcconfig */,
+				F68FE62ED474D637050C6B3E /* Pods-GhibliApp-GhibliAppUITests.debug.xcconfig */,
+				C982F2E830807EB0651016EE /* Pods-GhibliApp-GhibliAppUITests.release.xcconfig */,
+				4DB14136FE10B7275148F6F2 /* Pods-GhibliAppTests.debug.xcconfig */,
+				7C3E8599E8632B182BAD34B4 /* Pods-GhibliAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63B93D66268981FC005B2641 /* GhibliApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B93D91268981FD005B2641 /* Build configuration list for PBXNativeTarget "GhibliApp" */;
+			buildPhases = (
+				7BDA823816D956AA0006FD8D /* [CP] Check Pods Manifest.lock */,
+				63B93D63268981FC005B2641 /* Sources */,
+				63B93D64268981FC005B2641 /* Frameworks */,
+				63B93D65268981FC005B2641 /* Resources */,
+				55ACB3F547CE5F214CA511CF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GhibliApp;
+			productName = GhibliApp;
+			productReference = 63B93D67268981FC005B2641 /* GhibliApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63B93D7C268981FD005B2641 /* GhibliAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B93D94268981FD005B2641 /* Build configuration list for PBXNativeTarget "GhibliAppTests" */;
+			buildPhases = (
+				3A1BA370D9699A144431A41B /* [CP] Check Pods Manifest.lock */,
+				63B93D79268981FD005B2641 /* Sources */,
+				63B93D7A268981FD005B2641 /* Frameworks */,
+				63B93D7B268981FD005B2641 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63B93D7F268981FD005B2641 /* PBXTargetDependency */,
+			);
+			name = GhibliAppTests;
+			productName = GhibliAppTests;
+			productReference = 63B93D7D268981FD005B2641 /* GhibliAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63B93D87268981FD005B2641 /* GhibliAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B93D97268981FD005B2641 /* Build configuration list for PBXNativeTarget "GhibliAppUITests" */;
+			buildPhases = (
+				14980635FF5EA1D1C3F455B1 /* [CP] Check Pods Manifest.lock */,
+				63B93D84268981FD005B2641 /* Sources */,
+				63B93D85268981FD005B2641 /* Frameworks */,
+				63B93D86268981FD005B2641 /* Resources */,
+				ABABAB088B0499C82DDFBA50 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63B93D8A268981FD005B2641 /* PBXTargetDependency */,
+			);
+			name = GhibliAppUITests;
+			productName = GhibliAppUITests;
+			productReference = 63B93D88268981FD005B2641 /* GhibliAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63B93D5F268981FC005B2641 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					63B93D66268981FC005B2641 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					63B93D7C268981FD005B2641 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 63B93D66268981FC005B2641;
+					};
+					63B93D87268981FD005B2641 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 63B93D66268981FC005B2641;
+					};
+				};
+			};
+			buildConfigurationList = 63B93D62268981FC005B2641 /* Build configuration list for PBXProject "GhibliApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63B93D5E268981FC005B2641;
+			productRefGroup = 63B93D68268981FC005B2641 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63B93D66268981FC005B2641 /* GhibliApp */,
+				63B93D7C268981FD005B2641 /* GhibliAppTests */,
+				63B93D87268981FD005B2641 /* GhibliAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63B93D65268981FC005B2641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631F61DA268C4ADD00EE39BE /* icon60.png in Resources */,
+				631F61DC268C4ADD00EE39BE /* icon152.png in Resources */,
+				63B93D77268981FD005B2641 /* LaunchScreen.storyboard in Resources */,
+				631F61DD268C4ADD00EE39BE /* icon58.png in Resources */,
+				631F61D9268C4ADD00EE39BE /* icon29.png in Resources */,
+				631F61D7268C4ADD00EE39BE /* icon76.png in Resources */,
+				631F61DB268C4ADD00EE39BE /* icon40.png in Resources */,
+				631F61DF268C4ADD00EE39BE /* icon167.png in Resources */,
+				631F61E1268C4ADD00EE39BE /* icon20.png in Resources */,
+				631F61D8268C4ADD00EE39BE /* icon180.png in Resources */,
+				63516B7C268ED68400E6D0E4 /* totoro_.png in Resources */,
+				631F61D6268C4ADD00EE39BE /* icon120.png in Resources */,
+				63B93D74268981FD005B2641 /* Assets.xcassets in Resources */,
+				631F61DE268C4ADD00EE39BE /* icon87.png in Resources */,
+				63438CC7268AFA1500A52143 /* GhibliTableViewCell.xib in Resources */,
+				63B93D72268981FC005B2641 /* Main.storyboard in Resources */,
+				631F61EF268C77C800EE39BE /* poster_.png in Resources */,
+				631F61E0268C4ADD00EE39BE /* icon80.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B93D7B268981FD005B2641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B93D86268981FD005B2641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14980635FF5EA1D1C3F455B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GhibliApp-GhibliAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A1BA370D9699A144431A41B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GhibliAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55ACB3F547CE5F214CA511CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GhibliApp/Pods-GhibliApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GhibliApp/Pods-GhibliApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GhibliApp/Pods-GhibliApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BDA823816D956AA0006FD8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GhibliApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABABAB088B0499C82DDFBA50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GhibliApp-GhibliAppUITests/Pods-GhibliApp-GhibliAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GhibliApp-GhibliAppUITests/Pods-GhibliApp-GhibliAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GhibliApp-GhibliAppUITests/Pods-GhibliApp-GhibliAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63B93D63268981FC005B2641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63438CD8268AFF5600A52143 /* Ghibli.swift in Sources */,
+				63B93D6F268981FC005B2641 /* ViewController.swift in Sources */,
+				63B93D6B268981FC005B2641 /* AppDelegate.swift in Sources */,
+				63438CC6268AFA1500A52143 /* GhibliTableViewCell.swift in Sources */,
+				63B93D6D268981FC005B2641 /* SceneDelegate.swift in Sources */,
+				631F61F7268EBE5C00EE39BE /* DetailsViewController.swift in Sources */,
+				63516B8F268F0B1700E6D0E4 /* NetworkService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B93D79268981FD005B2641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B93D82268981FD005B2641 /* GhibliAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B93D84268981FD005B2641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B93D8D268981FD005B2641 /* GhibliAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63B93D7F268981FD005B2641 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63B93D66268981FC005B2641 /* GhibliApp */;
+			targetProxy = 63B93D7E268981FD005B2641 /* PBXContainerItemProxy */;
+		};
+		63B93D8A268981FD005B2641 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63B93D66268981FC005B2641 /* GhibliApp */;
+			targetProxy = 63B93D89268981FD005B2641 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63B93D70268981FC005B2641 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63B93D71268981FC005B2641 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63B93D75268981FD005B2641 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63B93D76268981FD005B2641 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63B93D8F268981FD005B2641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63B93D90268981FD005B2641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63B93D92268981FD005B2641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F24273D5C79D1ABCB1E8B2D5 /* Pods-GhibliApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VN2TMX92FL;
+				INFOPLIST_FILE = GhibliApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimas.ghibliapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63B93D93268981FD005B2641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF5ED670FBA54553977DCCA4 /* Pods-GhibliApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VN2TMX92FL;
+				INFOPLIST_FILE = GhibliApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimas.ghibliapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63B93D95268981FD005B2641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DB14136FE10B7275148F6F2 /* Pods-GhibliAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VN2TMX92FL;
+				INFOPLIST_FILE = GhibliAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimas.ghibliapp.GhibliAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GhibliApp.app/GhibliApp";
+			};
+			name = Debug;
+		};
+		63B93D96268981FD005B2641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C3E8599E8632B182BAD34B4 /* Pods-GhibliAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VN2TMX92FL;
+				INFOPLIST_FILE = GhibliAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimas.ghibliapp.GhibliAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GhibliApp.app/GhibliApp";
+			};
+			name = Release;
+		};
+		63B93D98268981FD005B2641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F68FE62ED474D637050C6B3E /* Pods-GhibliApp-GhibliAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VN2TMX92FL;
+				INFOPLIST_FILE = GhibliAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimas.ghibliapp.GhibliAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GhibliApp;
+			};
+			name = Debug;
+		};
+		63B93D99268981FD005B2641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C982F2E830807EB0651016EE /* Pods-GhibliApp-GhibliAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VN2TMX92FL;
+				INFOPLIST_FILE = GhibliAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimas.ghibliapp.GhibliAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GhibliApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63B93D62268981FC005B2641 /* Build configuration list for PBXProject "GhibliApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B93D8F268981FD005B2641 /* Debug */,
+				63B93D90268981FD005B2641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B93D91268981FD005B2641 /* Build configuration list for PBXNativeTarget "GhibliApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B93D92268981FD005B2641 /* Debug */,
+				63B93D93268981FD005B2641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B93D94268981FD005B2641 /* Build configuration list for PBXNativeTarget "GhibliAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B93D95268981FD005B2641 /* Debug */,
+				63B93D96268981FD005B2641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B93D97268981FD005B2641 /* Build configuration list for PBXNativeTarget "GhibliAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B93D98268981FD005B2641 /* Debug */,
+				63B93D99268981FD005B2641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63B93D5F268981FC005B2641 /* Project object */;
+}
